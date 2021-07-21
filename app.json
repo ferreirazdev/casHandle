@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "casHandle",
+    "slug": "casHandle",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "casHandle"
+}
