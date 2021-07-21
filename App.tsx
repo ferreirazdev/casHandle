@@ -13,7 +13,7 @@ import {
 
 import theme from './src/global/styles/theme';
 
-import { SignIn } from './src/screens/SignIn';
+import { Dashboard } from './src/screens/Dashboard';
 
 export default function App() {
   const [fontsLoaded] = useFonts({
@@ -29,7 +29,7 @@ export default function App() {
   return (
     <ThemeProvider theme={theme}>
       <StatusBar barStyle="light-content" />
-      <SignIn />
+      <Dashboard />
     </ThemeProvider>
   );
 }
